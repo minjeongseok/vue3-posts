@@ -56,12 +56,12 @@ const {
 	execute,
 } = useAxios(
 	`/posts/${id}`,
-	{ method: 'patch' },
+	{ method: 'put' },
 	{
-		immediate: false,
+		immediate: true,
 		onSuccess: () => {
 			vSuccess('수정 완 !!', 'primary');
-			router.push({ name: 'PostDetail', params: { id } });
+			// router.push({ name: 'PostDetail', params: { id } });
 		},
 		onError: err => {
 			vAlert(err.message);

@@ -1,25 +1,22 @@
 {
+  "items": [
+    {
+      "id": 1,
+      "name": "dasdsassass"
+    }
+  ],
   "posts": [
     {
-      "title": "tt",
-      "content": "ttㅋㅋ",
-      "createAt": 1706662351576,
       "id": 2
     },
     {
-      "title": "ggdg",
-      "content": "dgdgd",
-      "createAt": 1706662384007,
       "id": 3
     },
     {
-      "title": "zz",
-      "content": "zz",
-      "createAt": 1706662419790,
       "id": 4
     },
     {
-      "title": "ㅇㅇ",
+      "title": "ㅇㅇdasdsa",
       "content": "ㅇㅇ",
       "createAt": 1706680957443,
       "id": 5
@@ -29,6 +26,12 @@
       "content": "긴내용을만들어보겠습니다람쥐긴내용을만들어보겠습니다람쥐긴내용을만들어보겠습니다람쥐긴내용을만들어보겠습니다람쥐긴내용을만들어보겠습니다람쥐",
       "createAt": 1706683974280,
       "id": 6
+    },
+    {
+      "title": "fdsf",
+      "content": "dsfdsfd",
+      "createAt": 1708415981206,
+      "id": 7
     }
   ]
 }

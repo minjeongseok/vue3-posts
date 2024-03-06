@@ -1,12 +1,13 @@
-<script setup>
-import TheHeader from '@/layouts/TheHeader.vue';
-import TheView from '@/layouts/TheView.vue';
-</script>
-
 <template>
-	<TheHeader></TheHeader>
+	<TheHeader v-if="route.path != '/test'"></TheHeader>
 	<TheView></TheView>
 	<AppAlert />
 </template>
 
-<style></style>
+<script setup>
+import TheHeader from '@/layouts/TheHeader.vue';
+import TheView from '@/layouts/TheView.vue';
+import { useRoute } from 'vue-router';
+
+const route = useRoute();
+</script>
